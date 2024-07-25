@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>Admin Page</title>
+</head>
+<body>
+  <h1>Admin Upload Page</h1>
+  <a href="/">Go to Home Page</a>
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="image" required>
+    <textarea name="text" placeholder="Enter text" required></textarea>
+    <button type="submit">Upload</button>
+  </form>
+</body>
+</html>
